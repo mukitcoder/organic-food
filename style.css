@@ -44,3 +44,26 @@
     font-weight: 700;
     border-radius: 60px;
 }
+
+.main{
+    background: url(./images/cover.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgba(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
