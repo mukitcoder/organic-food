@@ -57,6 +57,20 @@
   font-size: 4rem;
   font-weight: 700;
 }
+.main-2 {
+  background: url(./images/11.jpg) no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-position: 50% 50%;
+  
+}
+
+.main-2 h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+}
 .btn1 {
   height: 45px;
   width: 35%;
