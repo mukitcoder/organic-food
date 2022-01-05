@@ -1,72 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar-brand{
-    font-size: 40px !important;
-    color: black;
-    font-family: 'Lobster', cursive;
+.navbar-brand {
+  font-size: 40px !important;
+  color: black;
+  font-family: "Lobster", cursive;
 }
-.navbar-brand:hover{
-    color: black;
-}
-
-.nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    color: black !important;
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
-}
-.nav-link:hover{
-    color: black;
+.navbar-brand:hover {
+  color: black;
 }
 
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    border: 2px solid rgba(248, 26, 92);
-    margin-right: -35px;
-    font-family: 'Rubik', sans-serif;
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black !important;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
 }
-.btn0{
-    height: 40px;
-    width: 40%;
-    border: none;
-    outline: none;
-    background: rgba(248, 26, 92);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
+.nav-link:hover {
+  color: black;
 }
 
-.main{
-    background: url(./images/cover.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-position: 50% 50%;
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid rgba(248, 26, 92);
+  margin-right: -35px;
+  font-family: "Rubik", sans-serif;
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  border: none;
+  outline: none;
+  background: rgba(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
 }
 
-.main h1{
-    font-size: 4rem;
-    font-weight: 700;
+.main {
+  background: url(./images/cover.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
 }
-.btn1{
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: rgba(248, 26, 92);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
 }
-.new img{
-    height: 100px;
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgba(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.new img {
+  height: 100px;
+}
+
+.card:hover {
+  box-shadow: -2px -1px 28px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px -1px 28px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 28px -8px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
 }
